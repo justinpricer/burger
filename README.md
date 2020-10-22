@@ -10,29 +10,29 @@ Eat-Da-Burger! is a restaurant app that lets users input the names of burgers th
 
 Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
 
-Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
+Each burger in the waiting area also has a <pre>Devour it!</pre>button. When the user clicks it, the burger will move to the right side of the page.
 
 Your app will store every burger in a database, whether devoured or not.
 
-Check out this video of the app for a run-through of how it works.
+
 
 ## Instructions
 ### App Setup
-<li>Create a GitHub repo called burger and clone it to your computer.
+<li>Create a GitHub repo called <pre>burger</pre> and clone it to your computer.
 
-Make a package.json file by running npm init from the command line.
+Make a package.json file by running <pre>npm</pre> init from the command line.
 
-Install the Express npm package: npm install express --save.
+Install the Express npm package: <pre>npm install express --save.</pre>
 
 Create a server.js file.
 
-Install the Handlebars npm package: npm install express-handlebars --save.
+Install the Handlebars npm package: <pre>npm install express-handlebars --save.</pre>
 
-Install the method-override npm package: npm install method-override --save.
+Install the method-override npm package: <pre>npm install method-override --save.</pre>
 
-Install the body-parser npm package: npm install body-parser --save.
+Install the body-parser npm package: <pre>npm install body-parser --save.</pre>
 
-Install MySQL npm package: npm install mysql --save.
+Install MySQL npm package: <pre>npm install mysql --save.</pre>
 
 Require the following npm packages inside of the server.js file:</li>
 
@@ -67,7 +67,7 @@ Now insert the entries you defined in seeds.sql by running the file: source seed
 
 Close out of the MySQL command line tool: exit.
 
-Config Setup:
+### Config Setup:
 Inside your burger directory, create a folder named config.
 
 Create a connection.js file inside config directory.
@@ -87,7 +87,7 @@ insertOne()
 updateOne()
 Export the ORM object in module.exports.
 
-Model setup:
+### Model setup:
 Inside your burger directory, create a folder named models.
 
 In models, make a burger.js file.
@@ -98,7 +98,7 @@ Also inside burger.js, create the code that will call the ORM functions using bu
 
 Export at the end of the burger.js file.
 
-Controller setup:
+### Controller setup:
 Inside your burger directory, create a folder named controllers.
 
 In controllers, create the burgers_controller.js file.
@@ -109,7 +109,7 @@ Express
 burger.js
 Create the router for the app, and export the router at the end of your file.
 
-View setup:
+### View setup:
 Inside your burger directory, create a folder named views.
 
 Create the index.handlebars file inside views directory.
